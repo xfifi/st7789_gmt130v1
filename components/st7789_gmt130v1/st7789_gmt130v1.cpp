@@ -7,7 +7,7 @@
 namespace esphome {
 namespace st7789_gmt130v1 {
 
-static const char *const TAG = "ST7789_GMT130V1";
+static const char *const TAG = "st7789_gmt130v1";
 
 void ST7789_GMT130V1::setup() {
   this->tft_ = new TFT_eSPI();
