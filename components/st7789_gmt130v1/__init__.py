@@ -8,7 +8,6 @@ from esphome.const import (
     CONF_ID,
     CONF_LAMBDA,
     CONF_WIDTH,
-    CONF_CS_PIN,
     CONF_DC_PIN,
     CONF_RESET_PIN,
     CONF_NUMBER,
