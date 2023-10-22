@@ -17,6 +17,7 @@ from esphome.const import __version__ as ESPHOME_VERSION
 
 st7789_gmt130v1_ns = cg.esphome_ns.namespace("st7789_gmt130v1")
 
+DEPENDENCIES = ["display"]
 DEPENDENCIES = ["esp32"]
 
 CONF_BACKLIGHT = "backlight"
@@ -45,3 +46,4 @@ CONFIG_SCHEMA = cv.All(
 )
 
 CODEOWNERS = ["@xfifi"]
+
