@@ -1,5 +1,5 @@
 
-#include "st7789_gmy130v1.h"
+#include "st7789_gmt130v1.h"
 
 #include "esphome/components/display/display_color_utils.h"
 #include "esphome/core/log.h"
