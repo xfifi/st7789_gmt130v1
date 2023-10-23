@@ -30,7 +30,7 @@ ST7789_GMT130V1 = st7789_gmt130v1_ns.class_(
 )
 
 CONFIG_SCHEMA = cv.All(
-    display.full_display_schema().extend(
+    display.FULL_DISPLAY_SCHEMA().extend(
         {
             cv.GenerateID(): cv.declare_id(ST7789_GMT130V1),
             cv.Optional(CONF_HEIGHT, default=240): cv.uint16_t,
